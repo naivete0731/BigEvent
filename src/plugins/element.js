@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import ElementUI from 'element-ui'
+import ELEMENT from 'element-ui'
 
-Vue.use(ElementUI)
-Vue.prototype.$message = ElementUI.Message
+Vue.use(ELEMENT)
+Vue.prototype.$message = ELEMENT.Message

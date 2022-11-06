@@ -62,8 +62,12 @@ export default {
         console.log(res)
         // 提交给mutations把token字符串保存到vuex中
         this.updateToken(res.token)
+        this.$router.push('/')
       })
     }
+  },
+  created () {
+
   }
 }
 </script>
